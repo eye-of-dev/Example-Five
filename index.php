@@ -19,8 +19,8 @@ $loader = new Loader($registry);
 $registry->set('load', $loader);
 
 // DataBase
-$db = new Database(DB_DRIVER, DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
-$registry->set('db', $db);
+//$db = new Database(DB_DRIVER, DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+//$registry->set('db', $db);
 
 // Request
 $request = new Request();

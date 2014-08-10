@@ -18,7 +18,7 @@
                                     <?php echo $product['name']?>
                                 </div>
                                 <div class="image">
-                                    <img align="none" alt="" src="images/example.png">
+                                    <img align="none" alt="" src="css/example.png">
                                 </div>
                                 <div class="product_pc specproduct_pc">
                                     <div class="price">
