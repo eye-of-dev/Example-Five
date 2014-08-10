@@ -1,0 +1,89 @@
+html, body {
+    color: #4d4d4d;
+    font-family: Tahoma,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 30px 15px 1px;
+}
+
+#content {
+    float: left;
+    width: 100%;
+}
+
+.product-list {
+    background: url("../image/double_dashed_del.png") repeat-y scroll center top rgba(0, 0, 0, 0);
+    font-size: 0;
+    letter-spacing: -1px;
+    line-height: 0;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.product-list .productBox {
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: normal;
+    line-height: 17px;
+    margin-top: -1px;
+    vertical-align: top;
+    width: 233px;
+}
+
+.productBox_inner {
+    background: url("../image/delimiter_dashed_gray.png") repeat-x scroll left top rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    padding: 10px 5px 20px;
+    width: 200px;
+}
+
+.product-list .name {
+    line-height: 14px;
+    margin-bottom: 9px;
+    max-height: 34px;
+    min-height: 34px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.product-list .image {
+    background: url("../image/product_box.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 210px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 200px;
+}
+
+.image {
+    position: relative;
+    text-align: center;
+}
+
+.product_pc {
+    overflow: hidden;
+}
+
+.product_pc .price {
+    background: none repeat scroll 0 0 #e3e4da;
+    color: #000000;
+    float: left;
+    padding: 6px 0 7px 13px;
+    text-align: left;
+    width: 111px;
+}
+
+.product_pc .buttonController {
+    float: right;
+}
+
+.buttonController {
+    cursor: pointer;
+    display: inline-block;
+    height: 31px;
+    padding-left: 3px;
+    text-indent: 0;
+    vertical-align: middle;
+}
